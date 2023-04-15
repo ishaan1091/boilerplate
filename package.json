@@ -1,14 +1,21 @@
 {
-  "name": "habitter",
-  "version": "1.0.0",
-  "description": "Your guide to building sustainable habits",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ishaan",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+    "name": "habitter",
+    "version": "1.0.0",
+    "description": "Your guide to building sustainable habits",
+    "main": "index.js",
+    "scripts": {
+        "client": "npm start --prefix client",
+        "server": "npm start --prefix server",
+        "start": "concurrently \"npm run client\" \"npm run server\"",
+        "dev": "cd ",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ishaan",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "concurrently": "^8.0.1"
+    }
 }
