@@ -1,21 +1,17 @@
 {
-    "name": "habitter",
+    "name": "boilerplate",
     "version": "1.0.0",
-    "description": "Your guide to building sustainable habits",
+    "description": "",
     "main": "index.js",
     "scripts": {
         "prepare": "husky install",
         "client": "npm start --prefix client",
         "server": "npm start --prefix server",
-        "start": "concurrently \"npm run client\" \"npm run server\"",
-        "dev": "cd ",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "concurrently \"npm run client\" \"npm run server\""
     },
     "author": "Ishaan",
     "license": "ISC",
-    "dependencies": {
-        "express": "^4.18.2"
-    },
+    "dependencies": {},
     "devDependencies": {
         "@commitlint/cli": "^17.6.1",
         "@commitlint/config-conventional": "^17.6.1",

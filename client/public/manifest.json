@@ -1,6 +1,6 @@
 {
-    "short_name": "Habitter",
-    "name": "Habitter",
+    "short_name": "Boilerplate",
+    "name": "Boilerplate",
     "icons": [],
     "start_url": ".",
     "display": "standalone",
